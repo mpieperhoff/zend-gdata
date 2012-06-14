@@ -1,0 +1,16 @@
+{
+    "name": "mpieperhoff/zend-gdata",
+    "type": "library",
+    "description": "ZF1 GData Library",
+    "keywords" : ["library","google","gdata","youtube","zf1","zf"],
+    "homepage": "https://github.com/mpieperhoff/zend-gdata",
+    "require": {
+        "php": ">=5.2.4"
+    },
+    "include-path": ["library/"],
+    "autoload": {
+        "psr-0" : {
+            "Zend_" : "library/"
+        }
+    }
+}
